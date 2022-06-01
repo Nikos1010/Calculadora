@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import './operations.js';
 
 function App() {
   const [result, setResult] = useState("");
