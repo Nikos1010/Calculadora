@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './App.css';
+// import { Boton } from './componente/botones';
+// import Calculadora from './componente/Calculadora';
 
 function App() {
   const [result, setResult] = useState("");
@@ -43,6 +45,7 @@ function App() {
         }
       }
   }
+  /* Estudiar Props*/
   return (
     <>
         <div className='container'>
